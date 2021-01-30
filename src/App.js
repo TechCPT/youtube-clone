@@ -9,7 +9,6 @@ function App() {
 
     <Header />
 
-      {/* Header -> <Header /> */}
       {/* Sidebar -> <Sidebar /> */}
       {/* RecommendedVideos */}
 
