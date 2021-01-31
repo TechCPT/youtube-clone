@@ -10,7 +10,7 @@
 }
 
 .header__logo {
-    height: 25px;
+    height: 20px;
     object-fit: contain;
     margin-left: 20px;
 }
@@ -18,27 +18,42 @@
 .header__input {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 50%;
     border: 1px solid lightgray;
 }
 
+.header__input > :placeholder-shown {
+    flex: 1;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
 .header__icon {
-    margin-right: 8px;
+    margin-right: 20px;
 }
 
 .header__inputButton {
     width: 50px !important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    color: gray;
+}
+
+.header__voiceButton {
+    width: 50px !important;
+    background-color: #fafafa;
     color: gray;
 }
 
 .header__icons {
     display: flex;
     align-items: center;
+    color: gray;
 }
 
-.header__input > input {    
+.header__input > input {
     flex: 1;
     border: none;
 }

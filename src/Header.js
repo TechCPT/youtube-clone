@@ -1,11 +1,12 @@
 import React from "react";
-import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
+import MicIcon from '@material-ui/icons/Mic';
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import Avatar from "@material-ui/core/Avatar"
+import "./Header.css";
 
 function Header() {
     return (
@@ -23,6 +24,7 @@ function Header() {
             <div className="header__input">
                 <input placeholder="Search" type="text" />
                 <SearchIcon className="header__inputButton" />
+                <MicIcon className="header__voiceButton" />
             </div>
 
             <div className="header__icons">
