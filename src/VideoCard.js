@@ -24,4 +24,4 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
     );
 }
 
-export default VideoCard
+export default VideoCard;

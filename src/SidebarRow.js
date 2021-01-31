@@ -10,4 +10,4 @@ function SidebarRow({ selected, Icon, title }) {
     );
 }
 
-export default SidebarRow
+export default SidebarRow;

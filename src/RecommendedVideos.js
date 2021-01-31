@@ -36,4 +36,4 @@ function RecommendedVideos() {
     );
 }
 
-export default RecommendedVideos
+export default RecommendedVideos;
