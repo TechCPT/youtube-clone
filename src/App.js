@@ -10,7 +10,7 @@ function App() {
 
       <Header />
 
-      <div className="app-page">
+      <div className="app__page">
         <Sidebar />
         <RecommendedVideos />
       </div>
