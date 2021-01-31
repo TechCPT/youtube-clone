@@ -15,7 +15,7 @@ function Header() {
                 <MenuIcon />
                 <img 
                     className="header__logo" 
-                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/YouTube_Logo.svg" 
+                    src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" 
                     alt="" 
                 />
             </div>
