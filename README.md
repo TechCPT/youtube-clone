@@ -8,5 +8,5 @@
 [![](https://tokei.rs/b1/github/TechCPT/youtube-clone?category=files)](https://github.com/TechCPT/youtube-clone)
 # YouTube Clone
 
-**A YouTube clone made using React and Firebase.** </br>
+**A YouTube clone made using React and deployed with Firebase.** </br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
